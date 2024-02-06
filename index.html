@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Weather </title>
+</head>
+<body>
+    <h2>Select city:</h2>
+    <select id="city-select">
+        <option value="London">London</option>
+        <option value="Paris">Paris</option>
+        <option value="Vienna">Vienna</option>
+    </select>
+    <button id="get-data-button">show the data weather for last 5 days</button>
+
+    <div id="result">
+
+    
+        <h3>Historical Weather Information:</h3>
+
+
+        <p><strong>Day with lowest temperature:</strong> <span id="min-temp"></span></p>
+        <p><strong>Date with lowest temperature:</strong> <span id="min-temp-date"></span></p>
+        <br>
+        <br>
+        <br>
+        <p><strong>Day with highest temperature:</strong> <span id="max-temp"></span></p>
+        <p><strong>Date with highest temperature:</strong> <span id="max-temp-date"></span></p>
+
+
+        <p><strong>Average temperatures:</strong></p>
+        <ul id="avg-temps"></ul>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
